@@ -42,8 +42,8 @@ const VectorAuthFooter = () => {
 
     return (
         <div className="mx_AuthFooter">
-            {authFooterLinks}
-            <a href="https://matrix.org" target="_blank" rel="noreferrer noopener">{ _t('Powered by Matrix') }</a>
+            {/*authFooterLinks*/
+            <a href="https://www.trustroots.org/search" target="_blank" rel="noreferrer noopener">{ Find a host on Trustroots}</a> }
         </div>
     );
 };
